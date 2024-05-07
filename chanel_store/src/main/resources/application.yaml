@@ -1,0 +1,14 @@
+
+
+
+
+spring:
+  datasource:
+    username: chanel_store
+    password: chanel_store
+    url: jdbc:mysql://localhost:3306/chanel_store
+      
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
